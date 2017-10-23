@@ -1,0 +1,511 @@
+html, body {
+    font-size: 12px;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    margin: 0;
+    color: #060606;
+    height: 100%;
+}
+
+body, p, ul, dl, dd, dt, li, ol, form, div, h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+}
+
+img, a {
+    border: 0;
+}
+
+input, textarea {
+    font-size: 12px;
+}
+
+li {
+    list-style: none;
+}
+
+.indexzt span a {
+    width: 100px;
+}
+
+.indexnews {
+    width: 550px;
+}
+.htBt {
+    min-width: 1000px;
+    height: 40px;
+    width: 1280px;
+    margin: 30px auto;
+}
+
+.htBt h1 {
+    font-size: 24px;
+    color: #545454;
+    float: left;
+    margin-right: 15px;
+}
+#htHeader {
+    min-width: 1000px;
+    height: 60px;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+#htHeader .logo {
+    width: 205px;
+    height: 41px;
+    margin-top: 10px;
+    float: left;
+}
+
+.headernav {
+    float: right;
+    width: 750px;
+}
+
+.headernav .yuyan {
+    float: right;
+    color: #a3a3a3;
+    vertical-align: middle;
+    margin-top: 10px;
+    width: 700px;
+    text-align: right;
+    margin-right: 20px
+}
+
+.headernav .yuyan a {
+    margin: 0 5px;
+}
+
+.navsize {
+    float: right;
+    margin-top: 5px
+}
+
+.navsize a {
+    color: #000;
+    text-decoration: none;
+    margin: 0 25px;
+    font-size: 16px;
+}
+
+.bastHtall {
+    width: 1280px;
+    margin: 30px auto 50px auto;
+    overflow: hidden
+}
+
+.indexTop {
+    width: 1280px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.indexTop ul {
+    width: 1380px;
+}
+
+.indexTop ul li {
+    float: left;
+    margin-right: 75px;
+}
+
+.indexnews {
+    width: 290px;
+}
+
+.indexnews dl dt, .indexzhuti dl dt, .indexshehui dl dt {
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    border-top: 2px solid #000000;
+}
+
+.indexnews dl dd {
+    line-height: 18px;
+    padding: 5px 0;
+}
+
+.indexnews dl dd a {
+    color: #868686;
+}
+
+#footer {
+    border-top: 1px solid #dfdfdf;
+    margin: 60px auto;
+    width: 1280px;
+    overflow: hidden;
+}
+
+#footer ul li {
+    float: left;
+    margin-top: 15px;
+    color: #979797;
+}
+
+#footer ul li.footbast {
+    width: 125px;
+}
+
+#footer ul li.footbast a {
+    display: block;
+    line-height: 20px;
+}
+
+#footer ul li.footbast a strong {
+    font-size: 14px;
+}
+
+#footer ul li.footlist {
+    width: 125px;
+}
+
+#footer ul li.footbq {
+    float: right;
+    width: 460px;
+    position: relative;
+}
+
+#footer ul li.footbq span {
+    display: block;
+    line-height: 20px;
+    text-align: right;
+}
+
+#footer ul li.footbq input.sousuo {
+    width: 160px;
+    height: 23px;
+    line-height: 23px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 5px;
+    margin-left: 294px;
+}
+
+#footer ul li.footbq a.imgtu {
+    display: block;
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    text-indent: -999999px;
+    background: url(../images/sousuo.jpg) no-repeat;
+    width: 25px;
+    height: 23px;
+}
+
+.tabimgs {
+    margin: 0 auto;
+    width: 1280px;
+    height: 472px;
+}
+
+#tabnext {
+    width: 1280px;
+    height: 472px;
+    overflow: hidden;
+    position: relative;
+}
+
+#tabnext ul {
+    height: 472px;
+    position: absolute;
+}
+
+#tabnext ul li {
+    float: left;
+    width: 1280px;
+    height: 472px;
+    overflow: hidden;
+    position: relative;
+    background: #000;
+}
+
+#tabnext ul li div {
+    position: absolute;
+    overflow: hidden;
+}
+
+#tabnext .btn {
+    position: absolute;
+    width: 700px;
+    height: 10px;
+    padding: 15px 10px;
+    right: 0;
+    bottom: 0;
+    text-align: left;
+}
+
+#tabnext .btn span {
+    display: inline-block;
+    _display: inline;
+    _zoom: 1;
+    width: 8px;
+    height: 8px;
+    _font-size: 0;
+    margin-left: 12px;
+    cursor: pointer;
+    background: url(../images/sganniu1.png) left no-repeat;
+}
+
+#tabnext .btn span.on {
+    background: url(../images/sganniu1.png) no-repeat;
+}
+
+#tabnext .preNext {
+    width: 32px;
+    height: 31px;
+    position: absolute;
+    top: 210px;
+    background: url(../images/sganniu.png) no-repeat 0 0;
+    cursor: pointer;
+}
+
+#tabnext .pre {
+    left: 0;
+}
+
+#tabnext .next {
+    right: 0;
+    background-position: right top;
+}
+
+.listtexts {
+    margin: 40px auto 0 auto;
+    width: 1280px;
+    overflow: hidden;
+}
+
+.castet {
+    float: left;
+    width: 208px;
+    margin-right: 40px;
+}
+
+.castet ul li {
+    border-top: 3px solid #bb0000;
+    height: 385px;
+    margin-bottom: 40px;
+}
+
+.castet ul li h2 {
+    font-size: 24px;
+    height: 70px;
+    line-height: 70px;
+}
+
+.castet ul li p {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.texttablie {
+    width: 700px;
+    float: left;
+}
+
+.tab_ul_dl {
+    border: 1px solid #e3e3e3;
+    height: 42px;
+    background: #eeeeee;
+}
+
+.tab_ul_dl ul li {
+    float: left;
+    width: 145px;
+    line-height: 42px;
+    background: url(../images/t.jpg) no-repeat right;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.tab_ul_dl ul li.selectd {
+    width: 146px;
+    border-top: 2px solid #bb0000;
+    color: #bb0000;
+    background: url(../images/t.jpg) no-repeat 145px 0 #f3f3f3;
+    margin: -1px 0 0 0;
+}
+
+.tabnice {
+    height: 338px;
+    border: 1px solid #e3e3e3;
+    border-width: 0 1px 1px 1px;
+}
+
+.textbs {
+    margin-top: 25px;
+    font-size: 14px;
+    color: #858585;
+    margin-left: 25px;
+    float: left;
+    display: inline;
+}
+
+.textds {
+    float: left;
+    display: inline;
+    margin: 25px 0 0 25px;
+}
+
+.textds dt {
+    float: left;
+    width: 258px;
+    margin-right: 15px;
+}
+
+.textds dd {
+    float: right;
+    width: 360px;
+    margin-right: 40px;
+    display: inline;
+    color: #858585
+}
+
+.textds dd span {
+    font-size: 14px;
+}
+
+.textds dd p {
+    line-height: 20px
+}
+
+.textds dd a {
+    margin-top: 20px;
+    width: 50px;
+    color: #bb0000;
+    display: block
+}
+
+.textlisttet {
+    width: 580px;
+    float: left;
+    display: inline;
+    margin: 20px 0 0 25px;
+}
+
+.textlisttet li {
+    height: 20px;
+    line-height: 20px;
+}
+
+.chakan {
+    float: right;
+    width: 100px
+}
+
+.tops {
+    margin-top: 45px;
+}
+
+.tabboxtext {
+    height: 338px;
+    border: 1px solid #e3e3e3;
+    border-width: 0 1px 1px 1px;
+    position: relative;
+}
+
+.boxptext {
+    width: 325px;
+    margin-top: 25px;
+    font-size: 14px;
+    color: #858585;
+    margin-left: 25px;
+    float: left;
+    display: inline;
+}
+
+.boxnece {
+    width: 395px;
+    margin-top: 25px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #858585;
+    margin-left: 25px;
+    float: left;
+    display: inline;
+}
+
+.yuedu {
+    margin: 25px 0 0 25px;
+    float: left;
+    display: inline;
+    width: 100px;
+    clear: both;
+    display: block;
+    color: #bb0000;
+}
+
+.imgright {
+    float: right;
+    width: 229px;
+    position: absolute;
+    top: 40px;
+    right: 30px;
+}
+
+.boxlist {
+    margin: 20px 0 0 25px;
+    float: left;
+    display: inline;
+    width: 580px;
+}
+
+.boxlist li {
+    width: 245px;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+}
+
+.sotright {
+    float: right;
+    width: 291px;
+}
+
+.guanyu {
+    width: 291px;
+    float: left;
+    margin-bottom: 35px;
+    border-top: 1px solid #dd0000;
+    position: relative;
+}
+
+.guanyu h2 {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.guanyu h2 strong {
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.guanyu span {
+    display: block;
+    margin: 15px 0;
+    font-size: 14px;
+}
+
+.guanyu ul li {
+    line-height: 18px;
+}
+
+.guanyu img {
+    margin-top: 15px;
+}
+
+.guanyu p {
+    margin-top: 15px;
+    color: #858585;
+}
+
+.guanyu p.textwidth {
+    width: 185px;
+}
+
+.posimg {
+    position: absolute;
+    top: 0;
+    right: 0;
+}

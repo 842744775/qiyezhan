@@ -1,175 +1,386 @@
-html,body{font-size:12px;font-size:12px;font-family:"微软雅黑";margin:0;color:#060606;height:100%;}
-body,p,ul,dl,dd,dt,li,ol,form,div,h1,h2,h3,h4{margin:0;padding:0;}
-img,a{border:0;}
-input,textarea{font-size:12px;}
-li{list-style:none;}
-.indexzt span a{ 
-	width:100px;
+html, body {
+    font-size: 12px;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    margin: 0;
+    color: #060606;
+    height: 100%;
 }
+
+body, p, ul, dl, dd, dt, li, ol, form, div, h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+}
+
+img, a {
+    border: 0;
+}
+
+input, textarea {
+    font-size: 12px;
+}
+
+li {
+    list-style: none;
+}
+
+.indexzt span a {
+    width: 100px;
+}
+
 .indexnews {
     width: 550px;
 }
-#htHeader{
-	min-width:1000px;
-	height:60px; 
-	width:1280px; 
-	margin:0 auto;
+
+#htHeader {
+    min-width: 1000px;
+    height: 60px;
+    width: 1280px;
+    margin: 0 auto;
 }
-#htHeader .logo{
-	width:205px; 
-	height:41px; 
-	margin-top:10px; 
-	float:left;
+
+#htHeader .logo {
+    width: 205px;
+    height: 41px;
+    margin-top: 10px;
+    float: left;
 }
-.headernav{
-	float:right; 
-	width:750px;
+
+.headernav {
+    float: right;
+    width: 750px;
 }
-.headernav .yuyan{
-	float:right; 
-	color:#a3a3a3; 
-	vertical-align:middle; 
-	margin-top:10px; 
-	width:700px; 
-	text-align:right; 
-	margin-right:20px
+
+.headernav .yuyan {
+    float: right;
+    color: #a3a3a3;
+    vertical-align: middle;
+    margin-top: 10px;
+    width: 700px;
+    text-align: right;
+    margin-right: 20px
 }
-.headernav .yuyan a{
-	margin:0 5px;
+
+.headernav .yuyan a {
+    margin: 0 5px;
 }
-.navsize{
-	float:right; 
-	margin-top:5px
+
+.navsize {
+    float: right;
+    margin-top: 5px
 }
-.navsize a{
-	color:#000; 
-	text-decoration:none; 
-	margin:0 25px; 
-	font-size:16px;
+
+.navsize a {
+    color: #000;
+    text-decoration: none;
+    margin: 0 25px;
+    font-size: 16px;
 }
-.bastHtall{
-	width:1280px; 
-	margin:30px auto 50px auto; 
-	overflow:hidden
+
+.bastHtall {
+    width: 1280px;
+    margin: 30px auto 50px auto;
+    overflow: hidden
 }
-.indexTop{
-	width:1280px; 
-	float:left; 
-	position:relative; 
-	overflow:hidden;
+
+.indexTop {
+    width: 1280px;
+    float: left;
+    position: relative;
+    overflow: hidden;
 }
-.indexTop ul{
-	width:1380px;
+
+.indexTop ul {
+    width: 1380px;
 }
-.indexTop ul li{
-	float:left; 
-	margin-right:75px;
+
+.indexTop ul li {
+    float: left;
+    margin-right: 75px;
 }
-.indexnews{
-	width:290px;
+
+.indexnews {
+    width: 290px;
 }
-.indexnews dl dt,.indexzhuti dl dt,.indexshehui dl dt{
-	height:40px; 
-	line-height:40px; 
-	font-size:18px; 
-	border-top:2px solid #000000;}
-.indexnews dl dd{
-	line-height:18px; 
-	padding:5px 0;
+
+.indexnews dl dt, .indexzhuti dl dt, .indexshehui dl dt {
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    border-top: 2px solid #000000;
 }
-.indexnews dl dd a{
-	color:#868686;
+
+.indexnews dl dd {
+    line-height: 18px;
+    padding: 5px 0;
 }
-#footer{
-	border-top:1px solid #dfdfdf; 
-	margin:60px auto; 
-	width:1280px; 
-	overflow:hidden;
+
+.indexnews dl dd a {
+    color: #868686;
 }
-#footer ul li{
-	float:left; 
-	margin-top:15px; 
-	color:#979797;
+
+#footer {
+    border-top: 1px solid #dfdfdf;
+    margin: 60px auto;
+    width: 1280px;
+    overflow: hidden;
 }
-#footer ul li.footbast{
-	width:125px;
+
+#footer ul li {
+    float: left;
+    margin-top: 15px;
+    color: #979797;
 }
-#footer ul li.footbast a{
-	display:block; 
-	line-height:20px;
+
+#footer ul li.footbast {
+    width: 125px;
 }
-#footer ul li.footbast a strong{
-	font-size:14px;
+
+#footer ul li.footbast a {
+    display: block;
+    line-height: 20px;
 }
-#footer ul li.footlist{
-	width:125px;
+
+#footer ul li.footbast a strong {
+    font-size: 14px;
 }
-#footer ul li.footbq{
-	float:right; 
-	width:460px; 
-	position:relative;
+
+#footer ul li.footlist {
+    width: 125px;
 }
-#footer ul li.footbq span{
-	display:block; 
-	line-height:20px; 
-	text-align:right;
+
+#footer ul li.footbq {
+    float: right;
+    width: 460px;
+    position: relative;
 }
-#footer ul li.footbq input.sousuo{
-	width:160px; 
-	height:23px; 
-	line-height:23px; 
-	border:1px solid #dbdbdb; 
-	margin-bottom:5px; 
-	margin-left:294px;
+
+#footer ul li.footbq span {
+    display: block;
+    line-height: 20px;
+    text-align: right;
 }
-#footer ul li.footbq a.imgtu{
-	display:block; 
-	position:absolute; 
-	top:2px; 
-	right:5px; 
-	text-indent:-999999px; 
-	background:url(../images/sousuo.jpg) no-repeat; width:25px; 
-	height:23px;}
+
+#footer ul li.footbq input.sousuo {
+    width: 160px;
+    height: 23px;
+    line-height: 23px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 5px;
+    margin-left: 294px;
+}
+
+#footer ul li.footbq a.imgtu {
+    display: block;
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    text-indent: -999999px;
+    background: url(../images/sousuo.jpg) no-repeat;
+    width: 25px;
+    height: 23px;
+}
+
 .index-banner {
-	width:100%;
-	background-color: black;
+    width: 100%;
+    background-color: black;
 }
-.top-banner img{
-	width: 100%;
-	height: 100%;
+
+.top-banner img {
+    width: 100%;
+    height: 100%;
 }
-.warallw{width:1280px; margin:0 auto; overflow:hidden;}
-.leftlist{width:185px; float:left ;border-top:1px solid #b7bcbf; margin-right:33px;}
-.leftlist ul li{padding-left:10px; line-height:38px; border:1px solid #b7bcbf; border-width:0 0 1px 0;}
-.leftlist ul li.curr{line-height:38px; border:1px solid #bb0000; color:#bb0000; border-width:1px 0 1px 0; font-size:14px; font-weight:bold; margin-top:-1px;}
-.leftlist ul li.curr a{color:#bb0000;}
-.leftlist ul li a{display:block; font-size:14px; text-decoration:none; font-weight:bold;}
-.leftlist ul li a:hover{color:#bb0000;}
-.leftlist ul li dl.tabHsie{margin:0 0 10px 15px;}
-.leftlist ul li dl.tabHsie a{border:0; font-weight:normal; color:#5c5c5c; font-size:12px; line-height:30px;}
-.leftlist ul li dl.tabHsie a:hover{color:#bb0000;}
-.leftlist ul li dl.tabHsie a.currone{color:#bb0000;}
-.guishuWai{float:left; width:1055px;padding: 0 0 20px 0; background:url(../images/g1.jpg) no-repeat top;}
-.gaishu{float:left; width:255px;}
-.gaishu h2{font-size:60px;}
-.gaishu strong{display:block; margin:15px 0 5px 0;font-size:14px;}
-.gaishu p{font-size:12px;}
-.gaishu ul{margin-top:48px;}
-.gaishu ul li a{font-size:#bb0000; line-height:25px; font-size:14px;}
-.gaishu ul li a:hover{color:#bb0000;}
-.gaishu ul li a.curr{color:#bb0000;}
-.biliimg{width:760px; height:225px; margin-top:95px; margin-bottom:30px;}
-.biliimg strong{width:355px; display:block; font-size:14px;}
-.biliimg p{width:355px; margin:20px 0; line-height:20px;}
-.bilisttext{width:760px; float:right; overflow:hidden;}
-.bilisttext ul{width:845px;}
-.bilisttext ul li{float:left; margin-right:25px; width:350px; padding-right:20px; border-right:1px solid #b7bcbf;}
-.bilisttext ul li p{color:#797979; line-height:24px; padding-bottom:30px;}
-.bilisttext ul li p strong{color:#000;}
-.bilisttext ul li dl dd{line-height:24px;}
-.htBt{min-width:1000px;height:40px; width:1280px; margin:30px auto;}
-.htBt h1{font-size:24px; color:#545454; float:left; margin-right:15px;}
-.navlist{margin:15px 0 0 0; float:left;}
-.navlist li{float:left; color:#a7a7a7;}
-.navlist li a{text-decoration:none;color:#a7a7a7;}
-.navlist li strong{ color:#666667; font-weight:normal;}
+
+.warallw {
+    width: 1280px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.leftlist {
+    width: 185px;
+    float: left;
+    border-top: 1px solid #b7bcbf;
+    margin-right: 33px;
+}
+
+.leftlist ul li {
+    padding-left: 10px;
+    line-height: 38px;
+    border: 1px solid #b7bcbf;
+    border-width: 0 0 1px 0;
+}
+
+.leftlist ul li.curr {
+    line-height: 38px;
+    border: 1px solid #bb0000;
+    color: #bb0000;
+    border-width: 1px 0 1px 0;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: -1px;
+}
+
+.leftlist ul li.curr a {
+    color: #bb0000;
+}
+
+.leftlist ul li a {
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.leftlist ul li a:hover {
+    color: #bb0000;
+}
+
+.leftlist ul li dl.tabHsie {
+    margin: 0 0 10px 15px;
+}
+
+.leftlist ul li dl.tabHsie a {
+    border: 0;
+    font-weight: normal;
+    color: #5c5c5c;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.leftlist ul li dl.tabHsie a:hover {
+    color: #bb0000;
+}
+
+.leftlist ul li dl.tabHsie a.currone {
+    color: #bb0000;
+}
+
+.guishuWai {
+    float: left;
+    width: 1055px;
+    padding: 0 0 20px 0;
+    background: url(../images/g1.jpg) no-repeat top;
+}
+
+.gaishu {
+    float: left;
+    width: 255px;
+}
+
+.gaishu h2 {
+    font-size: 60px;
+}
+
+.gaishu strong {
+    display: block;
+    margin: 15px 0 5px 0;
+    font-size: 14px;
+}
+
+.gaishu p {
+    font-size: 12px;
+}
+
+.gaishu ul {
+    margin-top: 48px;
+}
+
+.gaishu ul li a {
+    font-size: #bb0000;
+    line-height: 25px;
+    font-size: 14px;
+}
+
+.gaishu ul li a:hover {
+    color: #bb0000;
+}
+
+.gaishu ul li a.curr {
+    color: #bb0000;
+}
+
+.biliimg {
+    width: 760px;
+    height: 225px;
+    margin-top: 95px;
+    margin-bottom: 30px;
+}
+
+.biliimg strong {
+    width: 355px;
+    display: block;
+    font-size: 14px;
+}
+
+.biliimg p {
+    width: 355px;
+    margin: 20px 0;
+    line-height: 20px;
+}
+
+.bilisttext {
+    width: 760px;
+    float: right;
+    overflow: hidden;
+}
+
+.bilisttext ul {
+    width: 845px;
+}
+
+.bilisttext ul li {
+    float: left;
+    margin-right: 25px;
+    width: 350px;
+    padding-right: 20px;
+    border-right: 1px solid #b7bcbf;
+}
+
+.bilisttext ul li p {
+    color: #797979;
+    line-height: 24px;
+    padding-bottom: 30px;
+}
+
+.bilisttext ul li p strong {
+    color: #000;
+}
+
+.bilisttext ul li dl dd {
+    line-height: 24px;
+}
+
+.htBt {
+    min-width: 1000px;
+    height: 40px;
+    width: 1280px;
+    margin: 30px auto;
+}
+
+.htBt h1 {
+    font-size: 24px;
+    color: #545454;
+    float: left;
+    margin-right: 15px;
+}
+
+.navlist {
+    margin: 15px 0 0 0;
+    float: left;
+}
+
+.navlist li {
+    float: left;
+    color: #a7a7a7;
+}
+
+.navlist li a {
+    text-decoration: none;
+    color: #a7a7a7;
+}
+
+.navlist li strong {
+    color: #666667;
+    font-weight: normal;
+}
